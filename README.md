@@ -54,7 +54,7 @@ Important Nodes: The below graphs describe the way that a musician is embedded i
 
 “Random Network”: Rewiring the nodes leads to a different set of prominent nodes. Nodes 149,180 seem to have the highest centrality scores in terms of degree and betweenness. Node 193 though has a high degree is less influential compared to nodes 83 and 43 due to lower betweenness score. Most nodes are similarly positioned in terms of closeness centrality
 
-![alt text](https://github.com/VidhyaBatmaradjy/Social-network-analysis/blob/master/graph%20analysis/screenshots/centralnodes_randomn.png)
+![alt text](https://github.com/VidhyaBatmaradjy/Social-network-analysis/blob/master/graph%20analysis/screenshots/centralnodes_random.png)
 
 Overlapping Communities
 We get different communities depending on the algorithm used and what we are optimizing for. So, a clique which in some sense is a stronger version of a community is analyzed to identify overlapping communities and their effect.
@@ -69,7 +69,7 @@ To perform a cluster analysis of the closeness of the cliques, the 3 largest cli
 
 “Random Network” shows very few nodes that tend to overlap and was found to differ for other cliques not shown. This shows that the network does not have a specific set of very important nodes and they appear to be less homogenous.
 
-![alt text](https://github.com/VidhyaBatmaradjy/Social-network-analysis/blob/master/graph%20analysis/screenshots/clique_randomn.png)
+![alt text](https://github.com/VidhyaBatmaradjy/Social-network-analysis/blob/master/graph%20analysis/screenshots/clique_random.png)
 
 
 Comparison Summary: The comparison reveals that both networks are sparse with the same network density of 0.1405. The distribution further shows that both the networks differ in terms of degrees and betweenness while the closeness distribution is similar. It is also clear that the “Real Network” appears to be more integrated with nodes having higher sense of community. While the “Random Network” explains some properties of real networks, notably the short distances between any two nodes, it fails in other respects. In particular, it cannot explain the ubiquitous presence of clustering, modularity and hubs in real networks.
