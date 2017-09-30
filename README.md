@@ -11,11 +11,10 @@ STRUCTURE:
 “Real Network” has a clumpy structure with an average path length of 2.23 relative to “Random Network” with 1.87. Also, “Real Network” seems to have 7 local communities compared to the “Random Network” with just 1 whole community (using infomap.community() command). This is because a “Random Network” is not expected to have a community structure as any 2 vertices have the same probability to be adjacent.  
             
 “Real Network” – (D=6)
-![alt text](https://github.com/VidhyaBatmaradjy/Social-network-analysis/blob/master/graph analysis/screenshots/realnetwork.png)
-
+![alt text](https://github.com/VidhyaBatmaradjy/Social-network-analysis/blob/master/graph%20analysis/screenshots/realnetwork.png)
 
 “Random Network” – (D=3)
-![alt text](https://github.com/VidhyaBatmaradjy/Social-media-analysis/blob/master/graph analysis/screenshots/randomnetwork.png)
+![alt text](https://github.com/VidhyaBatmaradjy/Social-network-analysis/blob/master/graph%20analysis/screenshots/randomnetwork.png)
 
 
 NETWORK LEVEL METRICS
